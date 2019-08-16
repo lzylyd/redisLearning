@@ -44,6 +44,7 @@ typedef struct listIter {
     int direction;
 } listIter;
 
+//结构 用于新建链表
 typedef struct list {
     listNode *head;
     listNode *tail;
